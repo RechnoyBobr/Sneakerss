@@ -1,0 +1,35 @@
+body {
+    font-family: "Lucida Console", serif;
+}
+
+.affordable {
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card{
+    margin: 20px;
+}
+.filter-bar{
+    top: 0;
+    float: right;
+    height: 110vh;
+    width: 15vw;
+    border-radius: 20px;
+    border-left: 2px solid #e5e5e5;
+}
+#Pricing{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}
+
+#badge1{
+    left: 10%;
+    top: 100%;
+}
+#badge2{
+    right: 10%;
+    top: 100%;
+}
