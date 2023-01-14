@@ -6,152 +6,241 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="assets/3023236_footwear_wedge%20sneaker_fashion_wedge_shoe_icon.svg">
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/assets/3023236_footwear_wedge%20sneaker_fashion_wedge_shoe_icon.svg">
+    <script src="/js/registration.js" defer></script>
     <title>Son Of Poizon</title>
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">$neaker$$</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">$neaker$$</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <h1 class="text-center"> Best sneakers<br> with <span class="affordable">affordable</span> price </h1>
-</header>
-<main>
-    <aside class="filter-bar">
-        <h2 id="filter-heading" class="text-center p-3"><img src="assets/filter.svg" width="30">Filter</h2>
-        <div class="container ">
-            <h3 class="text-center">Colors</h3>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Choose the main colors</option>
-                <option value="1">Red</option>
-                <option value="2">Blue</option>
-                <option value="3">Green</option>
-                <option value="4">Purple</option>
-                <option value="5">Black</option>
-                <option value="6">White</option>
-                <option value="7">Yellow</option>
-            </select>
-            <h3 class="text-center mt-4">Shipping</h3>
-            <div class="form-check mx-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    EMS
-                </label>
-            </div>
-            <div class="form-check mx-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                <label class="form-check-label" for="flexRadioDefault2">
-                    UPS
-                </label>
-            </div>
-            <div class="form-check mx-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                <label class="form-check-label" for="flexRadioDefault3">
-                    DHL Express
-                </label>
-            </div>
-            <div class="form-check mx-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                <label class="form-check-label" for="flexRadioDefault4">
-                    FedEx
-                </label>
-            </div>
-            <div class="form-check form-switch mt-3 mx-2">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Express delivery</label>
-            </div>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SignIn">
+                        Sign in
+                    </button>
 
-        </div>
-        <h3 class="text-center mt-4">Department</h3>
-        <div class="form-check mx-3">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Sneakers
-            </label>
-        </div>
-        <div class="form-check mx-3">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Hiking Boots
-            </label>
-        </div>
-        <div class="form-check mx-3">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-            <label class="form-check-label" for="flexCheckDefault1">
-                Luxury sneakers
-            </label>
-        </div>
-        <div class="form-check mx-3">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-            <label class="form-check-label" for="flexCheckDefault2">
-                Boots
-            </label>
-        </div>
-        <div class="form-check form-switch mt-4 mx-3">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault1">
-            <label class="form-check-label" for="flexSwitchCheckDefault1">On sale</label>
-        </div>
-        <div class="form-check form-switch mx-3">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault2">
-            <label class="form-check-label" for="flexSwitchCheckDefault2">Recent releases</label>
-        </div>
-        <label id="Pricing" for="customRange1" class="form-label mt-3"> Pricing</label>
-        <div class="d-inline-flex position-relative">
-            <span id="badge1" class="position-absolute badge_range">
-               <span>0$</span>
-            </span>
-            <input type="range" class="form-range mx-4  w-75" id="customRange1">
-            <span id="badge2" class="position-absolute badge_range">
-               <span>3290$ </span>
-            </span>
-        </div>
-    </aside>
-    <div class="sort"></div>
-    <section class="container">
+                    <!-- Modal -->
+                    <div class="modal fade" id="SignIn" tabindex="-1" aria-labelledby="Label_Sign_In"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="Label_SignIn">Sign in</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="mail_login" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="Mail_SignIn"
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <label for="Password_login" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="Pass_SignIn">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#Sign_up">
+                        Sign up
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Sign_up" tabindex="-1" aria-labelledby="Label_Sign_up"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="Label_SignUp">Register now!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="Mail_SignUp" class="form-label">Email address</label>
+                                        <input type="email" class="form-control btn-outline-danger" id="Mail_SignUp"
+                                            placeholder="name@example.com">
+                                            <div id="SignUp_Mail_Err" class="text-danger"> </div>
+                                    </div>
+                                   
+
+                                    <div class="mb-3 row">
+                                        <label for="Password_SignUp" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="Pass_SignUp" placeholder="It should be more than 8 characters...">
+                                        </div>
+                                        <div class="text-danger" id ="SignUp_Pass_Err"></div>
+                                    </div>
+                                   
+
+                                    <div class="mb-3 row">
+                                        <label for="Repeat_Pass" class="col-sm-2 col-form-label">Repeat Your
+                                            password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="Repeat_Pass">
+                                        </div>
+                                        <div class="text-danger" id ="Repeat_Pass_Err"></div>
+                                    </div>
+                                   
+
+                                    <button type="button" class="btn btn-primary" id="Register_Btn">Register</button>
+                                    <div id="SignUp_Complete"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <h1 class="text-center"> Best sneakers<br> with <span class="affordable">affordable</span> price </h1>
+    </header>
+    <main>
+        <aside class="filter-bar">
+            <h2 id="filter-heading" class="text-center p-3"><img src="/assets/filter.svg" width="30">Filter</h2>
+            <div class="container ">
+                <h3 class="text-center">Colors</h3>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Main colors</option>
+                    <option value="1">Red</option>
+                    <option value="2">Blue</option>
+                    <option value="3">Green</option>
+                    <option value="4">Purple</option>
+                    <option value="5">Black</option>
+                    <option value="6">White</option>
+                    <option value="7">Yellow</option>
+                </select>
+                <h3 class="text-center mt-4">Shipping</h3>
+                <div class="form-check mx-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        EMS
+                    </label>
+                </div>
+                <div class="form-check mx-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        UPS
+                    </label>
+                </div>
+                <div class="form-check mx-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                    <label class="form-check-label" for="flexRadioDefault3">
+                        DHL Express
+                    </label>
+                </div>
+                <div class="form-check mx-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                    <label class="form-check-label" for="flexRadioDefault4">
+                        FedEx
+                    </label>
+                </div>
+                <div class="form-check form-switch mt-3 mx-2">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Express delivery</label>
+                </div>
+
+            </div>
+            <h3 class="text-center mt-4">Department</h3>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Sneakers
+                </label>
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                    Hiking Boots
+                </label>
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                <label class="form-check-label" for="flexCheckDefault1">
+                    Luxury sneakers
+                </label>
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2">
+                    Boots
+                </label>
+            </div>
+            <div class="form-check form-switch mt-4 mx-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault1">
+                <label class="form-check-label" for="flexSwitchCheckDefault1">On sale</label>
+            </div>
+            <div class="form-check form-switch mx-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault2">
+                <label class="form-check-label" for="flexSwitchCheckDefault2">Recent releases</label>
+            </div>
+            <label id="Pricing" for="customRange1" class="form-label mt-3"> Pricing</label>
+            <div class="d-inline-flex position-relative">
+                <span id="badge1" class="position-absolute badge_range">
+                    <span>0$</span>
+                </span>
+                <input type="range" class="form-range mx-4  w-75" id="customRange1">
+                <span id="badge2" class="position-absolute badge_range">
+                    <span>3290$ </span>
+                </span>
+            </div>
+        </aside>
+        <div class="sort"></div>
+        <section class="container">
             <div class="row justify-content-around">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/6065c34b32497.png" class="card-img-top" alt="...">
+                    <img src="/assets/6065c34b32497.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Air Jordan 4's</h5>
                         <p class="card-text">The most recognisable silhouette from the Nike Air Jordans series with your
@@ -161,7 +250,7 @@
                 </div>
 
                 <div class="card col-md-3" style="width: 18rem;">
-                    <img src="assets/6065c34b32497.png" class="card-img-top" alt="...">
+                    <img src="/assets/6065c34b32497.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Air Jordan 4's</h5>
                         <p class="card-text">The most recognisable silhouette from the Nike Air Jordans series with your
@@ -171,7 +260,7 @@
                 </div>
 
                 <div class="card col-md-3" style="width: 18rem;">
-                    <img src="assets/6065c34b32497.png" class="card-img-top" alt="...">
+                    <img src="/assets/6065c34b32497.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Air Jordan 4's</h5>
                         <p class="card-text">The most recognisable silhouette from the Nike Air Jordans series with your
@@ -182,7 +271,7 @@
             </div>
             <div class="row justify-content-around">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/6065c34b32497.png" class="card-img-top" alt="...">
+                    <img src="/assets/6065c34b32497.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Air Jordan 4's</h5>
                         <p class="card-text">The most recognisable silhouette from the Nike Air Jordans series with your
@@ -192,7 +281,7 @@
                 </div>
 
                 <div class="card col-md-3" style="width: 18rem;">
-                    <img src="assets/6065c34b32497.png" class="card-img-top" alt="...">
+                    <img src="/assets/6065c34b32497.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Air Jordan 4's</h5>
                         <p class="card-text">The most recognisable silhouette from the Nike Air Jordans series with your
@@ -202,7 +291,7 @@
                 </div>
 
                 <div class="card col-md-3" style="width: 18rem;">
-                    <img src="assets/6065c34b32497.png" class="card-img-top" alt="...">
+                    <img src="/assets/6065c34b32497.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nike Air Jordan 4's</h5>
                         <p class="card-text">The most recognisable silhouette from the Nike Air Jordans series with your
@@ -211,16 +300,15 @@
                     </div>
                 </div>
             </div>
-    </section>
-</main>
+        </section>
+    </main>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-</script>
-<script src="js/index.js"></script>
+    </script>
 </body>
 
 </html>
